@@ -1,0 +1,8 @@
+*.R
+*.Rmd
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.nb.html
+data
