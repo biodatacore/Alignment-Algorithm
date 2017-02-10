@@ -6,3 +6,4 @@
 *.xlsx
 *.nb.html
 data
+.Rproj.user
