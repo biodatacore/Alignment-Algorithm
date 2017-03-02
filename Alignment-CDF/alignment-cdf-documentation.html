@@ -172,28 +172,28 @@ dat &lt;-
   bind_rows(d1, d2)
 dat</code></pre>
 <pre><code>## # A tibble: 2,000 × 6
-##    plate  well metaboliteID plateWellID    value      method
-##    &lt;int&gt; &lt;int&gt;        &lt;dbl&gt;       &lt;chr&gt;    &lt;dbl&gt;       &lt;chr&gt;
-## 1      1     1     166.7866         1_1 720824.4 Uncorrected
-## 2      2     1     166.7866         2_1 464988.6 Uncorrected
-## 3      3     1     166.7866         3_1 315725.1 Uncorrected
-## 4      4     1     166.7866         4_1 306781.1 Uncorrected
-## 5      5     1     166.7866         5_1 948846.8 Uncorrected
-## 6      6     1     166.7866         6_1 527770.4 Uncorrected
-## 7      7     1     166.7866         7_1 846891.3 Uncorrected
-## 8      8     1     166.7866         8_1 849266.9 Uncorrected
-## 9      9     1     166.7866         9_1 707627.8 Uncorrected
-## 10    10     1     166.7866        10_1 310513.6 Uncorrected
+##    plate  well metaboliteID plateWellID      value      method
+##    &lt;int&gt; &lt;int&gt;        &lt;dbl&gt;       &lt;chr&gt;      &lt;dbl&gt;       &lt;chr&gt;
+## 1      1     1     219.5141         1_1 241097.714 Uncorrected
+## 2      2     1     219.5141         2_1   1834.639 Uncorrected
+## 3      3     1     219.5141         3_1 930943.618 Uncorrected
+## 4      4     1     219.5141         4_1 552603.530 Uncorrected
+## 5      5     1     219.5141         5_1 321172.037 Uncorrected
+## 6      6     1     219.5141         6_1  26699.103 Uncorrected
+## 7      7     1     219.5141         7_1  15496.477 Uncorrected
+## 8      8     1     219.5141         8_1 314878.985 Uncorrected
+## 9      9     1     219.5141         9_1  98052.887 Uncorrected
+## 10    10     1     219.5141        10_1 596205.092 Uncorrected
 ## # ... with 1,990 more rows</code></pre>
 <p>For our sample data, the columns are:</p>
 <ul>
 <li>metaboliteID
 <ul>
-<li>Numeric ID representing a unique measured metabolite.</li>
+<li>ID representing a unique measured metabolite.</li>
 </ul></li>
 <li>plateWellID
 <ul>
-<li>Numeric ID representing a sample in which metabolites were measured.</li>
+<li>ID representing a sample in which metabolites were measured.</li>
 </ul></li>
 <li>plate, well
 <ul>
