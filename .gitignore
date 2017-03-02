@@ -1,4 +1,3 @@
-*.R
 *.Rmd
 *.csv
 *.tsv
@@ -6,4 +5,5 @@
 *.xlsx
 *.nb.html
 data
+old
 .Rproj.user
